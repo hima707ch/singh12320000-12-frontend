@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Global/Header.jsx";
-import Footer from "./Global/Footer.jsx";
 import HomePage from "./HomePage/Body.jsx";
 import PortfolioPage from "./PortfolioPage/Body.jsx";
 import AboutPage from "./AboutPage/Body.jsx";
@@ -19,7 +18,6 @@ const Body = () => {
         <Route path="/contactpage" element={<ContactPage />} />
         <Route path="/adminpage" element={<AdminPage />} />
             </Routes>
-          <Footer />
         </Router>
     );
 };
